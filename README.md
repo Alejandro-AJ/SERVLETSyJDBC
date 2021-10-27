@@ -1,2 +1,3 @@
 # SERVLETSyJDBC
-Uso e implementacion de Servlets junto con JDBC
+Uso e implementacion de Servlets junto con JDBC para el CRUD
+
