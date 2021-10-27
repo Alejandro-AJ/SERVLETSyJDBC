@@ -1,0 +1,54 @@
+<!-- <?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml$
+version="2.4"> -->
+<web-app>
+<display-name>
+Ejemplos de un Servlet
+</display-name>
+<description>
+Ejemplo para prueba
+</description>
+<!-- Publicamos nuestro servlet aquí -->
+<servlet>
+<servlet-name>Insertar</servlet-name>
+<servlet-class>Insertar</servlet-class>
+</servlet>
+<servlet>
+<servlet-name>ConsultaGeneral</servlet-name>
+<servlet-class>ConsultaGeneral</servlet-class>
+</servlet>
+<servlet>
+<servlet-name>Eliminar</servlet-name>
+<servlet-class>Eliminar</servlet-class>
+</servlet>
+<servlet>
+<servlet-name>Editar</servlet-name>
+<servlet-class>Editar</servlet-class>
+</servlet>
+<servlet>
+<servlet-name>UnEjemplo</servlet-name>
+<servlet-class>Controlador1</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>Insertar</servlet-name>
+<url-pattern>/Insertar</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+<servlet-name>ConsultaGeneral</servlet-name>
+<url-pattern>/ConsultaGeneral</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+<servlet-name>Eliminar</servlet-name>
+<url-pattern>/Eliminar</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+<servlet-name>Editar</servlet-name>
+<url-pattern>/Editar</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+<servlet-name>UnEjemplo</servlet-name>
+<url-pattern>/Controlador1</url-pattern>
+</servlet-mapping>
+</web-app>
